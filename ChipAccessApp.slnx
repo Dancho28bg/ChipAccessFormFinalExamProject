@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ChipAccess.Api/ChipAccess.Api.csproj" />
+  <Project Path="ChipAccess.Domain/ChipAccess.Domain.csproj" />
+  <Project Path="ChipAccess.Infrastructure/ChipAccess.Infrastructure.csproj" />
+</Solution>

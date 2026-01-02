@@ -1,0 +1,202 @@
+﻿.my-accesses-container {
+    padding: 20px;
+}
+
+.my-accesses-container h2 {
+    margin-bottom: 15px;
+}
+
+.page-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px 12px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 220px;
+}
+
+.search-box svg {
+    color: #666;
+}
+
+.create-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.create-button:hover {
+    background-color: #218838;
+}
+
+.access-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: white;
+}
+
+.access-table thead {
+    background-color: #f0f0f0;
+}
+
+.access-table th,
+.access-table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.access-table th {
+    cursor: pointer;
+    user-select: none;
+}
+
+.access-table th svg {
+    margin-left: 6px;
+    vertical-align: middle;
+    color: #555;
+}
+
+.access-table th:hover {
+    background-color: #eaeaea;
+}
+
+.clickable-row {
+    cursor: pointer;
+}
+
+.clickable-row:hover {
+    background-color: #f5faff;
+}
+
+.expanded-row td {
+    background: #fafafa;
+    border-top: none;
+}
+
+.action-panel {
+    padding: 12px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.action-panel .btn {
+    padding: 7px 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+}
+
+.action-panel .btn svg {
+    font-size: 14px;
+}
+
+.action-panel .btn.approve {
+    background-color: #28a745;
+}
+.action-panel .btn.approve:hover {
+    background-color: #1e7e34;
+}
+
+.action-panel .btn.reject {
+    background-color: #dc3545;
+}
+.action-panel .btn.reject:hover {
+    background-color: #b52a36;
+}
+
+.action-panel .btn.edit {
+    background-color: #fdb10d;
+}
+
+.action-panel .btn.edit:hover {
+    background-color: #d76e0b;
+}
+
+.action-panel .btn.revoke {
+    background-color: red;
+}
+.action-panel .btn.revoke:hover {
+    background-color: #991b1b;
+}
+
+.muted-action {
+    color: #6b7280;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+}
+
+.status-PendingManager {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.status-PendingAdmin {
+    background-color: #17a2b8;
+}
+
+.status-Active {
+    background-color: #28a745;
+}
+
+.status-ExpiringSoon {
+    background-color: #ff8800;
+}
+
+.status-Expired {
+    background-color: #dc3545;
+}
+
+.status-Revoked {
+    background-color: #6c757d;
+}
+
+.status-RejectedByManager {
+    background-color: #dc3545;
+}
+
+.status-RejectedByAdmin {
+    background-color: #dc3545;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}

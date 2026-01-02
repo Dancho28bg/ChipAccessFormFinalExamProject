@@ -1,0 +1,113 @@
+.modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal.audit-modal {
+    width: 94vw;
+    max-width: 1400px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 24px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.modal.audit-modal h2 {
+    margin: 0 0 14px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.modal.audit-modal .filters {
+    display: grid;
+    grid-template-columns: 320px 180px 180px;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.modal.audit-modal .filters input {
+    height: 36px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #cfd4dc;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.modal.audit-modal .presets {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.modal.audit-modal .presets button {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    background: #f8fafc;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.modal.audit-modal .presets button:hover {
+    background: #eef2ff;
+    border-color: #2563eb;
+}
+
+.modal.audit-modal .actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.modal.audit-modal .actions button {
+    padding: 7px 14px;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.modal.audit-modal .log-preview {
+    max-height: 420px;
+    overflow-y: auto;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+}
+
+.modal.audit-modal table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.modal.audit-modal th {
+    background: #f3f4f6;
+    color: #111827;
+    font-weight: 600;
+    text-align: left;
+    padding: 9px;
+    border-bottom: 1px solid #d1d5db;
+    position: sticky;
+    top: 0;
+}
+
+.modal.audit-modal td {
+    padding: 8px 9px;
+    border-bottom: 1px solid #e5e7eb;
+    color: #1f2937;
+    white-space: nowrap;
+}
+
+.modal.audit-modal tbody tr:hover {
+    background: #f9fafb;
+}
